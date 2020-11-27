@@ -12,13 +12,6 @@ body
 
 }
 
-/*
-KingRich Made it
-KingRich Made it
-KingRich Made it
-*/
-
-
 #background
 {
     width: 100%;
@@ -174,7 +167,6 @@ KingRich Made it
     background-color: #53777A;
 }
 
-
 .color-first 
 {
     color: #D95B43;
@@ -194,7 +186,6 @@ KingRich Made it
 {
     color: #53777A;
 }
-
 
 @keyframes animate-stripes {
     0% {background-position: 0 0;} 100% {background-position: 60px 0;}
