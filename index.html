@@ -43,10 +43,6 @@ const loadingStages = ["Pre-map", "Map", "Post-map", "Session"];
 const technicalNames = ["INIT_BEFORE_MAP_LOADED", "MAP", "INIT_AFTER_MAP_LOADED", "INIT_SESSION"];
 var currentLoadingStage = 0;
 var loadingWeights = [1.5/10, 4/10, 1.5/10, 3/10];
-// These are hardcoded but can be changed easily
-// If # changes it's not the biggest deal; most important is which of the bars you are on (and that is unaffected by these numbers)
-// Make #debug window visible and you can quickly see #s of each
-// Just make sure you do it after restarting your FiveM client as client caches a lot in memory after first join
 var loadingTotals = [70, 70, 70, 220];
 var registeredTotals = [0, 0, 0, 0];
 var stageVisible = [false, false, false, false];
